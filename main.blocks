@@ -1,0 +1,18 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="ax($4`vna#8MEA]d6)yj">mySprite</variable><variable id="@rWgekvkBz=@8j1r(amm">item</variable><variable id="=LV-I;cHv|HSKe~knU$Z">babablacksheep</variable><variable type="KIND_SpriteKind" id="+yeLu3XomL.YZ1gf%MT=">Player</variable><variable type="KIND_SpriteKind" id=",qe7S?`:V|~MpH7qP,Rt">Projectile</variable><variable type="KIND_SpriteKind" id="+k0K+52X6J]{t%1}7Kj3">Food</variable><variable type="KIND_SpriteKind" id="})?756zIX`u$S-xblouk">Enemy</variable><variable type="KIND_SpriteKind" id="V4cNz3@FQfcydp5?j93[">bafellow</variable></variables><block type="pxt-on-start" id="m=YZrfguNDS[+}:[yR}:" x="0" y="0"><statement name="HANDLER"><block type="variables_change" id="s4}29AX[4to*L.Mcwt[E"><field name="VAR" id="=LV-I;cHv|HSKe~knU$Z">babablacksheep</field><value name="VALUE"><shadow type="math_number" id="*CA+.gjGl48Hj3PHe}1p"><field name="NUM">1</field></shadow></value><next><block type="variables_set" id="Ho,0mt-LuWA~2$XZA~~K"><field name="VAR" id="=LV-I;cHv|HSKe~knU$Z">babablacksheep</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="{O8vshlX|LAS]6p!m$4A"><value name="img"><shadow type="screen_image_picker" id="3H5%c7k-C8V?^uVbn5N["><field name="img">img`
+2 2 2 . f f f f . 2 2 2 . 
+2 2 2 f f f f f 2 2 2 2 . 
+2 2 2 f f f f c 2 2 2 2 . 
+2 2 2 f f f c c 2 2 2 2 . 
+2 2 2 c f f f f 2 2 2 2 . 
+2 c c f f f e e f f c 2 . 
+2 2 2 2 f e e f 2 2 2 2 . 
+f f f 2 f e e f 2 f f f . 
+. f 4 1 f 4 4 f 1 4 f . . 
+. f e 4 4 4 4 4 4 e f . . 
+. f f f e e e e f f f . . 
+f e f b 7 7 7 7 b f e f . 
+e 4 f 7 7 7 7 7 7 f 4 e . 
+e e f 6 6 6 6 6 6 f e e . 
+. . . f f f f f f . . . . 
+. . . f f . . f f . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"3H5%c7k-C8V?^uVbn5N["}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="DTT|sX$BO-wc#{*]8hH,"><field name="MEMBER">bafellow</field></shadow></value></block></value><next><block type="playMelody" id="I,Vv)8z7ZRO%E(H#V$X;"><value name="melody"><shadow type="melody_editor" id="QNIz]H^P(yCtKY/UmQX."><field name="melody">"C5 C C5 C5 C5 C5 D C5 "</field></shadow></value><value name="tempo"><shadow type="math_number_minmax" id="P`0td~C7W2(TT+,dtbOy"><mutation min="40" max="500" label="Tempo" precision="0"></mutation><field name="SLIDER">120</field></shadow></value></block></next></block></next></block></statement></block></xml>
